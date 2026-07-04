@@ -1,7 +1,6 @@
 nohup: ignoring input
 Wrote summary CSV to: ../../experimental_data/from_260703/dentifiability_data/identifiability_summary.csv
-  10 combinations found (expected 70 = 10 R0 values x 7 sigma values)
-  WARNING: 60 combination(s) missing or unexpected count found. Check file_pattern / input_dir.
+  70 combinations found (expected 70 = 10 R0 values x 7 sigma values)
 Wrote LaTeX longtable (full, 70 rows) to: ../../experimental_data/from_260703/dentifiability_data/table_s1_identifiability.tex
 Wrote compact summary CSV to: ../../experimental_data/from_260703/dentifiability_data/identifiability_summary_compact.csv
 Wrote LaTeX compact table to: ../../experimental_data/from_260703/dentifiability_data/table_identifiability_compact.tex
@@ -9,4 +8,10 @@ Wrote LaTeX compact table to: ../../experimental_data/from_260703/dentifiability
 Bias summary by true sigma (averaged across R0):
             R0_bias  sigma_bias
 sigma_true                     
-0.94         -0.076      -0.082
+0.500         0.029       0.021
+0.600        -0.010       0.004
+0.700        -0.008      -0.025
+0.800         0.005      -0.023
+0.900        -0.018      -0.056
+0.940        -0.076      -0.082
+0.975        -0.054      -0.083

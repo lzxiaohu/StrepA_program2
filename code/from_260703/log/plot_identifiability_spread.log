@@ -1,6 +1,46 @@
 nohup: ignoring input
-Loaded 10 validation combinations.
+Loaded 70 validation combinations.
 Generating per-case ellipse plots...
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R01.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R01.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R01.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R01.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R02.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R02.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R02.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R02.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R02.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.5_R03.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R01.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R01.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R01.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R01.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R02.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R02.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R02.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R02.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R02.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.6_R03.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R01.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R01.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R01.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R01.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R02.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R02.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R02.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R02.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R02.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.7_R03.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R01.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R01.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R01.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R01.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R02.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R02.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R02.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R02.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R02.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.8_R03.0.png
   Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.94_R01.2.png
   Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.94_R01.4.png
   Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.94_R01.6.png
@@ -11,6 +51,26 @@ Generating per-case ellipse plots...
   Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.94_R02.6.png
   Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.94_R02.8.png
   Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.94_R03.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R01.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R01.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R01.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R01.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R02.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R02.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R02.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R02.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R02.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.975_R03.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R01.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R01.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R01.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R01.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R02.0.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R02.2.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R02.4.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R02.6.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R02.8.png
+  Saved ../../figures/from_260703/dentifiability_figures//ellipse_sigma0.9_R03.0.png
 Generating grid-level calibration plots...
   Saved ../../figures/from_260703/dentifiability_figures//calibration_R0.png
   Saved ../../figures/from_260703/dentifiability_figures//calibration_sigma.png
