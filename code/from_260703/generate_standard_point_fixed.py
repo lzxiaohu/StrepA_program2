@@ -20,7 +20,7 @@ omega = 0.2
 x = 10.0
 Cperweek = 34.53
 Nagents = 2500
-alpha = 7.0
+alpha = 0.007 * Nagents        # migration rate: 3.0
 AgeDeath = 71.0
 
 if core_params_num == 2:
@@ -82,7 +82,7 @@ def summary_stats(series_2d):
 
 # Define true parameter values to test
 R0_values = [1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6, 2.8, 3.0]
-sigma_values = [0.5, 0.6, 0.7, 0.8, 0.9, 0.94, 0.075]
+sigma_values = [0.5, 0.6, 0.7, 0.8, 0.9, 0.94, 0.975]
 
 observations = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 

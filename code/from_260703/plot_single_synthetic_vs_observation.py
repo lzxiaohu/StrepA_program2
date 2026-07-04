@@ -86,6 +86,9 @@ observations = np.array([
 # ============================================================
 print(f"Loading simulation for clean_id = {CLEAN_ID} ...")
 
+core_params_num = 2  # core params: R0 and sigma
+# core_params_num = 3  # core params: R0, sigma, and Dimmunity
+
 # fixed parameters
 DurationSimulation = 20.0     # years: 20.0
 Nstrains = 42       # number of strains: 42
@@ -93,11 +96,9 @@ omega = 0.2     # immunity cross strains: 0.1
 x = 10.0        #
 Cperweek = 34.53    #
 Nagents = 2500      # number of agents
-alpha = 7.0        # migration rate: 3.0
+alpha = 0.007 * Nagents        # migration rate: 3.0
 AgeDeath = 71.0     # life expectancy
-# R0: updated parameter (Basic reproductive number)
-# Sigma: updated parameter ()
-core_params_num = 2  # core params: R0 and sigma
+
 if core_params_num == 2:
     Dimmunity = 10.0 * 52.14
     fixed_params = np.array([DurationSimulation, Nstrains, Dimmunity, omega,
