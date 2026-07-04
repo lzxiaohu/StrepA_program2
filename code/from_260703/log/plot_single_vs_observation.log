@@ -1,0 +1,13 @@
+nohup: ignoring input
+Loading simulation for clean_id = 908653 ...
+  Original ID : 908658
+  R0=1.574, sigma=0.975, dist=0.02619
+  Simulation shape: (42, 23)
+plot_single_vs_observation.py:184: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout(rect=[0, 0, 0.88, 1])
+Saved: ../../figures/from_260703/ppc/observations/comparison_heatmap_id908653.png
+plot_single_vs_observation.py:205: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout(rect=[0, 0, 0.88, 1])
+Saved: ../../figures/from_260703/ppc/observations/comparison_scatter_id908653.png
+
+Done. Both figures saved.

@@ -1,0 +1,10 @@
+nohup: ignoring input
+Loading simulation for clean_id = 0 ...
+plot_single_synthetic_vs_observation.py:215: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout(rect=[0, 0, 0.88, 1])
+Saved: ../../figures/from_260703/ppc/observations/comparison_heatmap_id0.png
+plot_single_synthetic_vs_observation.py:236: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout(rect=[0, 0, 0.88, 1])
+Saved: ../../figures/from_260703/ppc/observations/comparison_scatter_id0.png
+
+Done. Both figures saved.

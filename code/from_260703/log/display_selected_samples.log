@@ -1,0 +1,211 @@
+nohup: ignoring input
+======================================================================
+DISPLAYING SAMPLES AT 0.01% PERCENTILE
+======================================================================
+
+Loading index mapping...
+✓ Loaded mapping: 999,995 clean → original indices
+
+Loading data...
+✓ Loaded 999,995 samples
+
+Percentile 0.01%:
+  Threshold: 0.032168
+  Selected: 100 samples (0.010%)
+
+======================================================================
+TOP 20 CLOSEST SAMPLES:
+======================================================================
+clean_id    = index in R0.csv/sigma.csv/distances
+original_id = index in simulation_bank_*.h5 files
+
+ rank  clean_id  original_id  distance       R0    sigma
+    1    970103       970108  0.021266 1.474167 0.848725
+    2    184059       184060  0.022336 1.556067 0.995776
+    3    292469       292472  0.022642 1.466997 0.989246
+    4    334933       334937  0.022759 1.426408 0.992684
+    5    398855       398859  0.022887 1.475956 0.951210
+    6    527785       527789  0.023935 1.508699 0.980789
+    7     13395        13395  0.023993 1.417510 0.829341
+    8    660388       660392  0.025824 1.569058 0.992040
+    9    553803       553807  0.026122 1.531855 0.854004
+   10    908653       908658  0.026186 1.573965 0.975397
+   11    686290       686294  0.027199 1.559101 0.999230
+   12     86442        86442  0.027238 1.489350 0.870846
+   13     66324        66324  0.027439 1.638374 0.981517
+   14    776039       776043  0.027893 1.637950 0.996289
+   15    282713       282716  0.028056 1.492181 0.930657
+   16    578202       578206  0.028301 1.412417 0.886444
+   17    509284       509288  0.028359 1.529967 0.928544
+   18    378426       378430  0.028434 1.705987 0.985867
+   19    815086       815090  0.028507 1.544087 0.949808
+   20    114142       114142  0.028546 1.570447 0.881159
+
+======================================================================
+STATISTICS OF SELECTED SAMPLES:
+======================================================================
+Distance range: [0.021266, 0.032167]
+Distance mean:  0.029574
+
+R0:
+  Range: [1.310, 1.706]
+  Mean:  1.496 ± 0.080
+
+Sigma:
+  Range: [0.503, 0.999]
+  Mean:  0.896 ± 0.109
+
+✓ Saved summary to: ../../experimental_data/from_260703/ppc/observations/selected_samples_p0.01.csv
+======================================================================
+PLOTTING 10 SPECIFIC SAMPLES IN 5×2 GRID (WITH MAPPING)
+======================================================================
+Clean IDs: [908653 815086 509284 282713  66324 398855 292469 970103 184059 527785]
+
+Loading index mapping from: ../../experimental_data/from_260703/valid_indices.csv
+✓ Loaded mapping: 999,995 entries
+
+Loading clean data from CSV files...
+✓ R0: 999,995 samples
+✓ sigma: 999,995 samples
+✓ distances: 999,995 samples
+
+✓ Found 28 simulation bank files
+✓ Samples per file: 37,748
+
+Plotting samples...
+  Sample 1: Clean ID 908653 → Original ID 908658
+    ✓ R0=1.574, σ=0.975
+  Sample 2: Clean ID 815086 → Original ID 815090
+    ✓ R0=1.544, σ=0.950
+  Sample 3: Clean ID 509284 → Original ID 509288
+    ✓ R0=1.530, σ=0.929
+  Sample 4: Clean ID 282713 → Original ID 282716
+    ✓ R0=1.492, σ=0.931
+  Sample 5: Clean ID 66324 → Original ID 66324
+    ✓ R0=1.638, σ=0.982
+  Sample 6: Clean ID 398855 → Original ID 398859
+    ✓ R0=1.476, σ=0.951
+  Sample 7: Clean ID 292469 → Original ID 292472
+    ✓ R0=1.467, σ=0.989
+  Sample 8: Clean ID 970103 → Original ID 970108
+    ✓ R0=1.474, σ=0.849
+  Sample 9: Clean ID 184059 → Original ID 184060
+    ✓ R0=1.556, σ=0.996
+  Sample 10: Clean ID 527785 → Original ID 527789
+    ✓ R0=1.509, σ=0.981
+
+✓ Saved to: ../../figures/from_260703/ppc/observations/matrices_heatmap_grid.png
+======================================================================
+PLOTTING 10 SIMULATION MATRICES AS SCATTER PLOTS (5×2 GRID)
+======================================================================
+Clean IDs: [908653 815086 509284 282713  66324 398855 292469 970103 184059 527785]
+
+Loading index mapping from: ../../experimental_data/from_260703/valid_indices.csv
+✓ Loaded mapping: 999,995 entries
+
+Loading clean data from CSV files...
+✓ R0: 999,995 samples
+✓ sigma: 999,995 samples
+✓ distances: 999,995 samples
+Found 28 simulation bank files
+  ✓ Clean 908653 → Orig 908658: R0=1.574, σ=0.975, 126 non-zero points
+  ✓ Clean 815086 → Orig 815090: R0=1.544, σ=0.950, 135 non-zero points
+  ✓ Clean 509284 → Orig 509288: R0=1.530, σ=0.929, 127 non-zero points
+  ✓ Clean 282713 → Orig 282716: R0=1.492, σ=0.931, 99 non-zero points
+  ✓ Clean 66324 → Orig 66324: R0=1.638, σ=0.982, 119 non-zero points
+  ✓ Clean 398855 → Orig 398859: R0=1.476, σ=0.951, 126 non-zero points
+  ✓ Clean 292469 → Orig 292472: R0=1.467, σ=0.989, 125 non-zero points
+  ✓ Clean 970103 → Orig 970108: R0=1.474, σ=0.849, 116 non-zero points
+  ✓ Clean 184059 → Orig 184060: R0=1.556, σ=0.996, 126 non-zero points
+  ✓ Clean 527785 → Orig 527789: R0=1.509, σ=0.981, 99 non-zero points
+
+✓ Saved to: ../../figures/from_260703/ppc/observations/matrices_scatter_grid.png
+======================================================================
+PLOTTING OBSERVATION MATRIX - HEATMAP
+======================================================================
+Matrix shape: (42, 23)
+Total infections: 220
+Non-zero entries: 115
+Max prevalence: 13
+
+✓ Saved to: ../../figures/from_260703/ppc/observations/observation_heatmap.png
+======================================================================
+PLOTTING OBSERVATION MATRIX - SCATTER
+======================================================================
+Matrix shape: (42, 23)
+Non-zero points: 115
+Total infections: 220
+Prevalence range: [1, 13]
+
+✓ Saved to: ../../figures/from_260703/ppc/observations/observation_scatter.png
+
+======================================================================
+✅ BOTH VERSIONS GENERATED!
+======================================================================
+======================================================================
+CALCULATING SUMMARY STATISTICS COMPARISON (WITH MAPPING)
+======================================================================
+
+Loading index mapping from: ../../experimental_data/from_260703/valid_indices.csv
+✓ Loaded mapping: 999,995 entries
+
+Calculating observation statistics...
+Observation summary statistics:
+  avg_prev_obs             : 9.565217
+  var_prev_obs             : 7.063518
+  avg_npmi_obs             : -0.595277
+  div_all_isolates_obs     : 18.333333
+
+Loading clean data from CSV files...
+✓ R0: 999,995 samples
+✓ sigma: 999,995 samples
+✓ distances: 999,995 samples
+✓ Simulation banks: 28 files
+
+Calculating statistics for 10 samples...
+  ✓ Clean 908653 → Orig 908658: R0=1.574, σ=0.975
+  ✓ Clean 815086 → Orig 815090: R0=1.544, σ=0.950
+  ✓ Clean 509284 → Orig 509288: R0=1.530, σ=0.929
+  ✓ Clean 282713 → Orig 282716: R0=1.492, σ=0.931
+  ✓ Clean 66324 → Orig 66324: R0=1.638, σ=0.982
+  ✓ Clean 398855 → Orig 398859: R0=1.476, σ=0.951
+  ✓ Clean 292469 → Orig 292472: R0=1.467, σ=0.989
+  ✓ Clean 970103 → Orig 970108: R0=1.474, σ=0.849
+  ✓ Clean 184059 → Orig 184060: R0=1.556, σ=0.996
+  ✓ Clean 527785 → Orig 527789: R0=1.509, σ=0.981
+
+======================================================================
+SUMMARY STATISTICS COMPARISON TABLE
+======================================================================
+
+   clean_id original_id       R0    sigma  distance  avg_prev_obs  var_prev_obs  avg_npmi_obs  div_all_isolates_obs
+Observation         N/A      NaN      NaN       NaN      9.565217      7.063518     -0.595277             18.333333
+     908653      908658 1.573965 0.975397  0.026186     11.739130      7.478560     -0.604372             12.850318
+     815086      815090 1.544087 0.949808  0.028507     12.260870      7.545121     -0.540729             13.246740
+     509284      509288 1.529967 0.928544  0.028359     11.739130      7.823144     -0.553313             12.818567
+     282713      282716 1.492181 0.930657  0.028056      9.434783      7.165740     -0.585920             11.454545
+      66324       66324 1.638374 0.981517  0.027439     10.130435      6.326742     -0.541052             12.478301
+     398855      398859 1.475956 0.951210  0.022887     11.217391      7.096456     -0.551426             13.648827
+     292469      292472 1.466997 0.989246  0.022642      9.956522      6.615947     -0.589041             12.949405
+     970103      970108 1.474167 0.848725  0.021266     10.565217      6.807924     -0.595789             13.358928
+     184059      184060 1.556067 0.995776  0.022336     12.086957      7.591341     -0.536926             15.594573
+     527785      527789 1.508699 0.980789  0.023935     10.000000      6.388911     -0.565221             12.979300
+
+======================================================================
+DIFFERENCES FROM OBSERVATION
+======================================================================
+
+   clean_id original_id  avg_prev_obs_diff  var_prev_obs_diff  avg_npmi_obs_diff  div_all_isolates_obs_diff
+Observation         N/A           0.000000           0.000000           0.000000                   0.000000
+     908653      908658           2.173913           0.415042          -0.009095                  -5.483015
+     815086      815090           2.695652           0.481604           0.054547                  -5.086593
+     509284      509288           2.173913           0.759626           0.041964                  -5.514766
+     282713      282716          -0.130435           0.102222           0.009357                  -6.878788
+      66324       66324           0.565217          -0.736775           0.054225                  -5.855032
+     398855      398859           1.652174           0.032938           0.043851                  -4.684507
+     292469      292472           0.391304          -0.447571           0.006235                  -5.383929
+     970103      970108           1.000000          -0.255594          -0.000513                  -4.974406
+     184059      184060           2.521739           0.527823           0.058350                  -2.738761
+     527785      527789           0.434783          -0.674607           0.030056                  -5.354033
+
+✓ Saved full comparison to: ../../experimental_data/from_260703/ppc/observations/summary_stats_comparison_specified10.csv
